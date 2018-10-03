@@ -3,8 +3,8 @@
 define('HOST','localhost');
 define("USER","root");
 define("PASS","");
-define("DB","p_loja");
+define("DB","busca");
 
-$conexao = mysqli_connect(HOST, USER, PASS, DB);
+$con = mysqli_connect(HOST, USER, PASS, DB);
 
 ?>
