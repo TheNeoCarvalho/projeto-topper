@@ -75,7 +75,7 @@ error_reporting(0);
 								'. $_SESSION['usuario'].'
 							</a>';
 						}else{
-							echo '<a href="#">
+							echo '<a href="login.php">
 									Cadastre-se ou faça login
 								</a>';
 						}
